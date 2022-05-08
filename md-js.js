@@ -10,6 +10,16 @@ function scrollFunction() {
   }
 }
 
+let scrollpos = window.scrollY; // window scroll position
+let wh = window.innerHeight-50; // as soon as element touches bottom with offset event starts
+let element = document.querySelector("#about"); //element
+
+window.addEventListener('scroll', function(){ 
+    if(scrollpos > (element.offsetTop - wh)){
+        element.classList.add("onScroll");
+    }
+});
+
 
 
 // Services Section
