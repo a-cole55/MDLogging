@@ -1,7 +1,7 @@
 body{
     margin:0;
-    font-size:62.5%;
     scroll-behavior: smooth;
+    font-size:62.5%;
 }
 html{
     margin:0;
@@ -156,7 +156,7 @@ strong{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin:5% 0 12% 0;
+    margin:5% 0 5% 0;
 }
 .container3 img{
     height:10%;
@@ -228,32 +228,129 @@ button{
     width:100%;
 }
 #contact{
-    background-color: #DCDA3C;
-    display:flex;
-    flex-direction: row;
-    width:100%;
-    justify-content: center;
-    align-items: center;
+    padding:1% 5% 5% 5%;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.contact2{
-    width:40%;
-    margin:0 5%;
+#contactHeading{
+    font-size: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:5% 0 0 5%;
 }
-span{
-    font: 1.5rem 'Source Sans Pro', sans-serif;
-    padding:4% 0 2% 0;
-    margin:0;
-    color:rgb(41, 40, 40);
-    text-shadow:1px 2px white;
-}
-#sectionContact{
-    width:100%;
+.row {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: stretch;
+    width:100%;
+    /* opacity: 0.9; */
+  }
+.btns{
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
-#contact > img{
-    width:11%;
+  .form{
+    width: 45%;
+    margin: 5% 5% -3% 5%;
+    display: inline-block;
+    background-color: white;
+  }
+  form {
+    width:100%;
+    margin:0;
+    background-color:white;
+  }
+  form input{
+    width:46.9%;
+    margin-bottom: 0.5%;
+    height:2.5em;
+    font-family:'Handlee', sans-serif;
+    border-color:rgb(29, 29, 29);
+    border-width: 1px;
+    font-size:1.1rem;
+    padding-left: 2%;
+  }
+  #contact-name{
+    width:96.8%;
+    padding-left: 2%;
+  }
+  textarea{
+    width: 97.3%;
+    height:10em;
+    font-family:'Handlee', sans-serif;
+    color:black;
+    border-color:rgb(29, 29, 29);
+    border-width: 1px;
+    font-size: 1.1rem;
+    margin-bottom:0;
+    padding-left: 1.5%;
+  }
+  .form li{
+    list-style-type: none;
+    display: inline;
+    margin:0 0 0 10%;
+  }
+  .form li input{
+    width:100px;
+    margin:0;
+    background-color:#DCDA3C;
+    color:rgb(41, 40, 40);
+    font-size:1.05rem;
+    border-radius: .5em;
+    border:2px double #DCDA3C;
+    cursor: pointer;
+    opacity:2;
+  }
+  .form li input:hover{
+    background-color:rgb(41, 40, 40);
+    color:white;
+    border-color: white;
+  }
+  .contactInfo{
+    width:40%;
+    display:inline-block;
+    margin: 4% 0 0 0;
+    /* animation:slide 6s infinite; */
+    overflow: hidden;
+  }
+  .contactBox{
+    margin-bottom:5%;
+    height:100%;
+    color:#0B5351;
+  }
+  .contactBox h4{
+    font-size:1.5rem;
+    display: inline;
+    color: rgb(41, 40, 40);
+    margin-bottom: 0;
+  }
+  .contactBox p{
+    font-size:1.2rem;
+    border-bottom: 2px solid rgb(41, 40, 40);
+    padding:3% 0 5% 0;
+    color:rgb(41, 40, 40);
+    font-weight: bold;
+    margin-top: 0;
+  }
+  .contactBox p > a{
+    color:rgb(41, 40, 40);
+    font-weight: bold;
+  }
+  .contactBox p > a:hover{
+    color:#778FA9;
+  }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font:1rem 'Source Sans Pro', 'sans-serif'
 }
 .hidden{
     display:none;
