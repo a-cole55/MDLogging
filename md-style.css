@@ -591,6 +591,10 @@ footer{
     .main img{
         width:100%;
     }
+    #container2  h2{
+      margin: 0;
+      font-size: 4em;
+    }
     #container2 p{
         font:1rem Arial, sans-serif;
         line-height: 1.5em;
