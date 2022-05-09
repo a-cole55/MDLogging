@@ -305,6 +305,7 @@ button{
     border:2px double #DCDA3C;
     cursor: pointer;
     opacity:2;
+    font-weight: bold;
   }
   .form li input:hover{
     background-color:rgb(41, 40, 40);
