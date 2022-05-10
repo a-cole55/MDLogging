@@ -596,6 +596,9 @@ footer{
     }
 }
 @media screen and (max-width:560px){
+    a {
+      color:#0B5351;
+    }
     .main img{
         width:100%;
     }
