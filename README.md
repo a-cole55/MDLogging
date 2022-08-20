@@ -1,5 +1,7 @@
 MD Logging Static Site
 
+![MDLogging-compressed](https://user-images.githubusercontent.com/94746691/172072388-834741ab-1d66-4c47-8fc4-27c3f96fbf04.jpg)
+
 Description:
 MD Logging is a responsive, static site created for a local logging company which provides a simple user interface to detail the business and services provided. 
 You can access this project live at https://mdlogging.netlify.app/. I hope you enjoy!
