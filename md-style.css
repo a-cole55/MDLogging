@@ -94,11 +94,12 @@ h1{
 }
 #container2 > img{
     width:40%;
+    height:520px;
     margin:0 0 0 5%;
 }
 #about{
     width:45%;
-    margin:2.5% 5% 5% 5%;
+    margin:1% 5% 5% 5%;
     text-align: center;
     display:flex;
     flex-direction:column;
@@ -135,24 +136,54 @@ strong{
     font-weight: bolder;
 }
 #container2 h3{
-    color:#DCDA3C;
-    font:bold 1.2rem Arial, sans-serif;
-    margin:3% 0 1% 0;
+    font:bold 1rem Arial, sans-serif;
+    margin-top:3%;
 }
-#container2 h2{
-    font: 4.25rem 'Saira Condensed', sans-serif;
-    margin:1% 0 1% 0;
+#about > h2, #testimonials > h3{
+    font: 3.5rem 'Saira Condensed', sans-serif;
+    margin:0;
     text-transform: uppercase;
 }
 #container2 p{
-    font: 1.07rem Arial, sans-serif;
-    line-height: 2em;
+    font: 1.15rem Arial, sans-serif;
+    line-height: 1.5em;
     text-align: center;
     font-weight: bold;
 }
-/* #container2:hover{
-    animation:slide 4s;
-} */
+#testimonials{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:2% 5% 0 5%;
+}
+#customerReviewContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.customerReviews{
+  width:45%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.customerReviews:first-child, .customerReviews:nth-child(3){
+  margin-right: 80px;
+}
+.customerReviews > p{
+  font: 1.1rem Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  margin-top:3%;
+  line-height: 25px;
+}
+.customerReviews > span{
+  font:bold 1.2rem Arial, sans-serif;
+  margin-top:3%;
+}
 #container3{
     background-color: rgb(41, 40, 40);
     height:fit-content;
@@ -644,6 +675,30 @@ footer{
         border-radius: 0;
         margin:0 0 10% 0;
     }
+
+/*testimonials */
+#testimonials > h3{
+  font-size: 2.5rem;
+
+}
+.customerReviews{
+  width:90%;
+}
+.customerReviews:first-child, .customerReviews:nth-child(3){
+  margin-right: 0;
+}
+.customerReviews > p{
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+}
+.customerReviews > span{
+  font:bold 1rem Arial, sans-serif;
+  margin-top:1%;
+}
+
+/*contact section*/
+
     #contact{
         flex-direction: column;
         height:fit-content;
