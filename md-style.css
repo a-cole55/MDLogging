@@ -48,11 +48,14 @@ ul{
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   
   /* Style the navbar links */
   #navbar a {
-    float: right;
+    /* float: right; */
     display: block;
     color: white;
     text-align: center;
