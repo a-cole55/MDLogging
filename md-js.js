@@ -30,6 +30,11 @@ document.querySelector('#link').addEventListener('mouseover', display1)
 document.querySelector('#link2').addEventListener('mouseover', display2)
 document.querySelector('#link3').addEventListener('mouseover', display3)
 
+
+// document.querySelector('#link').addEventListener('mouseout', display1)
+// document.querySelector('#link2').addEventListener('mouseout', display2)
+// document.querySelector('#link3').addEventListener('mouseout', display3)
+
 function display1(){
   let sec1 = document.querySelector('#sec1')
   sec1.classList.add("fade");

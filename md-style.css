@@ -222,7 +222,7 @@ strong{
     text-align: center;
 }
 #container3 h2{
-    font: 4.25rem 'Saira Condensed', sans-serif;
+    font: 3.5rem 'Saira Condensed', sans-serif;
     margin:0 0 3% 0;
     text-align: center;
     color:white;
@@ -256,7 +256,9 @@ button{
     width: 100%;
     border-radius: 0;
     height:2em;
-    font:bold 1.25rem 'Source Sans Pro', sans-serif;
+    font:bold 1.4rem 'Saira Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     margin:0 0 5% 0;
     background-color: #DCDA3C;
     align-items:center;
@@ -270,7 +272,8 @@ button:hover{
   transform: scale(1.05);
 }
 #container3 p{
-    font: 1.07rem Arial, sans-serif;
+    font: 1.15rem 'Saira Condensed', sans-serif;
+    letter-spacing: 0.05em;
     line-height: 2em;
     text-align: center;
     color:white;
@@ -414,14 +417,14 @@ footer{
     justify-content: center;
     align-items: center;
     color:white;
-    font:1rem 'Source Sans Pro', 'sans-serif'
+    font:1rem 'Source Sans Pro', 'sans-serif';
 }
 .hidden{
     display:none;
 }
 #copy{
     font-size: 1rem;
-    width:25%;
+    width:300px;
 }
 @media screen and (max-width:1220px){
     #container2 h2{
@@ -749,7 +752,7 @@ footer{
     }
     .row {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: colum;
         flex-wrap: wrap;
         box-sizing: border-box;
         align-items: center;
@@ -868,6 +871,6 @@ footer{
     }
     #copy{
         font-size:0.8rem;
-        width:50%;
+        width:40%;
     }
 }
