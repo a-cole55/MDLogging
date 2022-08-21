@@ -2,6 +2,7 @@ body{
     margin:0;
     scroll-behavior: smooth;
     font-size:62.5%;
+    font-family:'Saira Condensed', sans-serif;
 }
 html{
     margin:0;
@@ -25,22 +26,20 @@ ul{
     flex-wrap: nowrap;
     justify-content: flex-end;
     width:100%;
-    padding-right: 1%;
+    padding-right: 100px;
     margin-bottom: 2%;
 }
 #container1 li{
     list-style-type: none;
-    margin:0 1% 0 0;
-    width:5%;
-    /* border-right:0.22rem solid rgb(41, 40, 40); */
+    margin:0 5% 0 0;
+    width:100px;
 }
 #container1 a{
     text-decoration: none;
-    font:1.1rem 'Source Sans Pro', sans-serif;
+    width:80px;
+    font-size:1.4rem;
     color:rgb(41, 40, 40);
-    /* font-weight: bold; */
     text-align: right;
-    /* margin-bottom: 1%; */
 }
 #navbar {
     background-color: #333; /* Black background color */
@@ -55,7 +54,6 @@ ul{
   
   /* Style the navbar links */
   #navbar a {
-    /* float: right; */
     display: block;
     color: white;
     text-align: center;
@@ -94,8 +92,9 @@ h1{
 }
 #container2 > img{
     width:40%;
-    height:520px;
+    height:400px;
     margin:0 0 0 5%;
+    box-shadow: 1px 1px 7px rgba(33,33,33,.7);
 }
 #about{
     width:45%;
@@ -105,6 +104,7 @@ h1{
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    font-family:'Saira Condensed', sans-serif;
 }
 .onScroll{
     animation:slide 4s;
@@ -136,8 +136,8 @@ strong{
     font-weight: bolder;
 }
 #container2 h3{
-    font:bold 1rem Arial, sans-serif;
-    margin-top:3%;
+    font-size:1.15rem;
+    margin:3% 0 0 0;
 }
 #about > h2, #testimonials > h3{
     font: 3.5rem 'Saira Condensed', sans-serif;
@@ -145,10 +145,11 @@ strong{
     text-transform: uppercase;
 }
 #container2 p{
-    font: 1.15rem Arial, sans-serif;
+    font-size: 1.25rem;
     line-height: 1.5em;
     text-align: center;
     font-weight: bold;
+    margin-top: 0;
 }
 #final{
   display: flex;
