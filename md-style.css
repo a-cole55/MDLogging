@@ -106,6 +106,10 @@ h1{
     align-items: center;
     font-family:'Saira Condensed', sans-serif;
 }
+.actionItem{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
 .onScroll{
     animation:slide 4s;
 }
